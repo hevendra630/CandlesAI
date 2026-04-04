@@ -1,4 +1,4 @@
-# 🤖 StockAI — AI-Powered Stock Market Prediction System
+# 🤖 CandlesAI — AI-Powered Stock Market Prediction System
 
 A fully dockerized stock prediction platform with JWT authentication, LSTM-based predictions, real-time stock data (via Alpaca/YFinance), and sentiment analysis using HuggingFace models.
 
