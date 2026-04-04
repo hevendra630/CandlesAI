@@ -6,7 +6,7 @@ A fully dockerized stock prediction platform with JWT authentication, LSTM-based
 
 ## 🗂️ Project Structure
 
-stock-ai/
+candles-ai/
 ├── backend/          FastAPI — auth, stock, prediction, sentiment APIs  
 ├── ai_service/       Python ML service — LSTM + HuggingFace NLP  
 ├── frontend/         React + Vite + Tailwind dashboard  
@@ -19,7 +19,7 @@ stock-ai/
 
 # 1. Clone the project
 git clone <your-repo>
-cd stock-ai
+cd candles-ai
 
 # 2. (Optional) Add your NewsAPI key
 # Get one free at https://newsapi.org/register
@@ -135,17 +135,17 @@ AAPL, TSLA, GOOGL, MSFT, AMZN, NVDA, etc.
 
 ## 💡 Summary
 
-Full-stack AI system:
-- ML model served via API  
-- FastAPI backend  
-- React frontend  
-- Dockerized deployment  
+CandlesAI is a full-stack AI system where:
+- ML models are served via APIs  
+- FastAPI backend handles business logic  
+- React frontend provides visualization  
+- Docker ensures reproducibility and deployment  
 
 ---
 
 ## 🚀 Future Improvements
 
 - Real-time streaming  
-- Advanced models  
+- Advanced models (Transformers, RL)  
 - Portfolio optimization  
-- Cloud deployment  
+- Cloud deployment (AWS/Kubernetes)  
