@@ -1,10 +1,10 @@
-# 🤖 CandlesAI — AI-Powered Stock Market Prediction System
+# CandlesAI — AI-Powered Stock Market Prediction System
 
 A fully dockerized stock prediction platform with JWT authentication, LSTM-based predictions, real-time stock data (via Alpaca/YFinance), and sentiment analysis using HuggingFace models.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 candles-ai/
 ├── backend/          FastAPI — auth, stock, prediction, sentiment APIs  
@@ -15,7 +15,7 @@ candles-ai/
 
 ---
 
-## 🚀 Run Everything (One Command)
+##  Run Everything (One Command)
 
 # 1. Clone the project
 git clone <your-repo>
@@ -32,7 +32,7 @@ First build takes 5–10 min (downloads ML models).
 
 ---
 
-## 🌐 Access the Application
+##  Access the Application
 
 Frontend       → http://localhost:3000  
 Backend API    → http://localhost:3000/api  
@@ -40,7 +40,7 @@ API Docs       → http://localhost:3000/api/docs
 
 ---
 
-## 🧪 API Testing
+##  API Testing
 
 Signup:
 curl -X POST http://localhost:3000/api/auth/signup \
@@ -66,7 +66,7 @@ curl http://localhost:3000/api/sentiment/NVDA \
 
 ---
 
-## 🧠 AI Service
+##  AI Service
 
 Runs internally on port 8001:
 
@@ -81,7 +81,7 @@ curl -X POST http://localhost:8001/train \
 
 ---
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
 DATABASE_URL   → PostgreSQL connection  
 SECRET_KEY     → JWT secret  
@@ -91,7 +91,7 @@ AI_SERVICE_URL → AI service URL
 
 ---
 
-## 🐳 Docker Services
+##  Docker Services
 
 postgres   → database  
 redis      → caching  
@@ -101,14 +101,14 @@ frontend   → UI
 
 ---
 
-## 🛑 Stop Services
+##  Stop Services
 
 docker-compose down  
 docker-compose down -v  
 
 ---
 
-## 🔐 Security
+##  Security
 
 - Change SECRET_KEY before production  
 - JWT expires in 24 hours  
@@ -116,7 +116,7 @@ docker-compose down -v
 
 ---
 
-## 📈 Features
+##  Features
 
 - Real-time stock data (Alpaca / Yahoo Finance)  
 - LSTM price prediction  
@@ -127,13 +127,13 @@ docker-compose down -v
 
 ---
 
-## 📊 Supported Stocks
+##  Supported Stocks
 
 AAPL, TSLA, GOOGL, MSFT, AMZN, NVDA, etc.
 
 ---
 
-## 💡 Summary
+## Summary
 
 CandlesAI is a full-stack AI system where:
 - ML models are served via APIs  
